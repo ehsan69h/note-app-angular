@@ -1,0 +1,37 @@
+div.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 30px;
+
+  div.item {
+    background-color: #f3ffbd;
+    padding: 5px 15px;
+
+    div.header {
+        background-color: #f1e88b;
+        margin: -3px -15px 14px -15px;
+        padding: 5px 10px;
+        color: #6d6d6d;
+        font-size: 20px;
+    }
+  }
+  div.register-item {
+    input {
+      height: 30px;
+      display: block;
+      width: 100%;
+      font-size: 18px;
+      padding: 1px 0px;
+      border: solid #dcdcdc 1px;
+      border-radius: 6px;
+      margin: 5px 0px;
+    }
+
+
+    input.btn {
+        background: #FF1654;
+        color: white;
+    }
+  }
+}
